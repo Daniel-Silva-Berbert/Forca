@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="formularios\FormComoJogar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="formularios\FormJogar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="formularios\FormNomes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="formularios\FrmInicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
