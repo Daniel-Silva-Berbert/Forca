@@ -211,7 +211,7 @@ namespace forca.formularios
             this.DialogResult = DialogResult.OK;
 
             _player.Stop();
-            // Opcionalmente, você pode ocultar o formulário atual se não precisar mais dele
+            
             this.Close();
         }
         //jogar de novo

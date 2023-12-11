@@ -26,7 +26,7 @@ namespace forca
 
         private void ComoJogar_Click(object sender, EventArgs e)
         {
-            // Crie uma instância do FormConfiguracoes
+            
             FormComoJogar formComoJoga = new FormComoJogar();
             this.Hide();
             DialogResult fecha = formComoJoga.ShowDialog();
@@ -41,7 +41,7 @@ namespace forca
             // Cria uma instância do FormNomes
             FormNomes nomes = new FormNomes();
 
-            // Exibe o FormNomes de forma modal (aguarda o usuário fechar)
+            
             DialogResult resultado = nomes.ShowDialog();
 
             // Verifica se o usuário clicou em OK em FormNomes
